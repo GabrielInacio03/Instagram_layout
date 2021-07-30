@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+main{
+    padding: 1rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.instagram-fone{   
+   height: 100%;
+}
+.instagram-fone img{
+    width: 100%;
+    height: 100%;
+}
+.instagram-continue{    
+    margin-right: 5rem;    
+    margin-top: 1rem;
+}
+.group{
+    width: 25rem;
+    height: auto;
+    padding: 1rem 3rem;
+    border: .2rem solid #F4F4F4;    
+}
+.group a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.group .foto-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group .foto-perfil img{
+    border: none;
+    border-radius: 5rem;
+}
+.group .login{
+    margin-top: 1rem;
+    padding: .5rem 0;
+    background-color: #3bb0ff;    
+    border: none;
+    border-radius: .3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.group .login:hover{
+    filter: brightness(1.2); 
+}
+.group .pergunta{
+    text-align: center;
+    font-size: 1.1rem;
+}
+.group .pergunta span{
+    color: #3bb0ff;
+    cursor: pointer;
+}
+.group-img{
+    width: 25rem;
+    height: auto;    
+}
+.group-img p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.group-img img{
+    width: 100%;
+    height: 5rem;   
+}
+.link-logo{
+    border: none;
+}

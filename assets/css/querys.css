@@ -1,0 +1,39 @@
+@media (max-width: 620px){
+    .instagram-fone{
+        display: none;
+       
+    }
+    .instagram-continue{
+        width: 100%;                     
+        margin: auto;
+    }
+    .group{
+       width: 100%;          
+       margin: 0 auto;
+    }
+    .group-img{
+        width: 100%;          
+    }
+    .group-img .download{
+        width: 70%;
+        margin: auto;
+    }
+    .group-img .download img{
+        
+        height: 5rem;           
+    }
+}
+@media (max-width: 910px){
+    .instagram-fone{
+        display: none;       
+    }
+    .group-img .download{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media (max-width: 1200px){
+    .instagram-fone{
+        display: none;       
+    }
+}
